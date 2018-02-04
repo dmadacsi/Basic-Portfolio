@@ -1,29 +1,19 @@
-    header { padding:10px;
+
+
+header { padding:10px;
     text-align: center;
-    font-size: 20px;}
+    font-size: 20px;
+    font-family: 'Questrial', sans-serif;
+}
 
     body {
-        background-color: black;
+        background-color: rgb(255, 255, 255);
     }
+  
 
-    h1 {
-        text-decoration: underline;
-    }
-
-    h1, h2, h3, p {
-        color: yellow;
-    }
-
-    h1, h2, p, li, a {
-        font-family: 'Questrial', sans-serif;
-        
-    }
-
-    a  { color :white; 
-
-    }
+    
 /* formatting*/
-    .wrapper {
+    .container {
         width: 960px;
         padding: 20px;
         margin: 0 auto;
@@ -34,6 +24,7 @@
     #biotext {
         position: relative;
         left:0;
+        top:100px;
         width:650px;
         padding:5px;
         margin:0;
